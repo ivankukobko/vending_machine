@@ -11,3 +11,10 @@ stock or the machine does not have enough change to return to the customer.
 
 Example coins: 25c 50c 1$ 2$ 5$
 
+# Usage
+
+No CLI is ready yet. See tests:
+
+```
+rake test
+```
