@@ -23,7 +23,7 @@ class Cli
       if is_command?(@input.downcase)
         case @input.downcase
         when 'q' then exit
-        when 'r' then @vending_machine.reset
+        when 'r' then @vending_machine.reset && reset_screen
         when 'c' then expect_input(:insert_coin) { CoinsStorage.print_available }
         when 'p' then expect_input(:purchase) { ProdutsStorage.print_available }
         end
