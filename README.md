@@ -13,7 +13,13 @@ Example coins: 25c 50c 1$ 2$ 5$
 
 # Usage
 
-No CLI is ready yet. See tests:
+Run executable script and follow instructions on screen
+
+```
+./vending_machine
+```
+
+# Testing
 
 ```
 rake test
